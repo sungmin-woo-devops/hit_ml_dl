@@ -1,0 +1,20 @@
+# 구매 전환 예측 실험을 위한 패키지 요구사항
+
+# 데이터 처리 및 분석
+pandas>=1.5.0
+numpy>=1.21.0
+
+# 시각화
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# 머신러닝
+scikit-learn>=1.1.0
+xgboost>=1.6.0
+
+# 불균형 데이터 처리
+imbalanced-learn>=0.9.0
+
+# 추가 유틸리티
+jupyter>=1.0.0
+ipykernel>=6.0.0 
