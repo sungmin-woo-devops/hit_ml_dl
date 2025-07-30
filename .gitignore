@@ -172,15 +172,15 @@ cython_debug/
 *.code-workspace
 
 # Data files
-# *.csv
-# *.xlsx
-# *.xls
-# *.json
-# *.parquet
-# *.h5
-# *.hdf5
-# *.pkl
-# *.pickle
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
 
 # Model files
 *.joblib
