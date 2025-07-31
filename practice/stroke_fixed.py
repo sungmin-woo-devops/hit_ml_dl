@@ -12,11 +12,17 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, confusion_matrix
 from imblearn.over_sampling import SMOTE
 
-print(os.getcwd())
-print(os.listdir())
+# 폰트지정
+plt.rcParams['font.family'] = 'Malgun Gothic'
+
+# 마이너스 부호 깨짐 지정
+plt.rcParams['axes.unicode_minus'] = False
+
+# 숫자가 지수표현식으로 나올 때 지정
+pd.options.display.float_format = '{:.2f}'.format
 
 # 데이터 로드
-df = pd.read_csv("./practice/data/stroke.csv", encoding='utf-8')
+df = pd.read_csv("./dataset/healthcare-dataset-stroke-data.csv", encoding='utf-8')
 print("데이터 정보:")
 print(df.info())
 print("\n처음 5행:")
